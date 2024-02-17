@@ -1,0 +1,162 @@
+/* PCヴァージョン */
+@media screen and (min-width: 1200px){
+
+/* header */
+
+html {
+  
+  color: black;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#nav {
+display: flex;
+justify-content: space-between;
+}
+
+#nav-title > h1{
+width: 163px;
+height: 46px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+border: solid 3px #000;
+
+}
+
+
+#nav-pc {
+font-size: 34px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+color: #000;
+margin: 10px;
+text-align: center;
+}
+#nav-pc:link {
+  color: #000;
+  margin: 10px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 34px;
+}
+
+#main-img {
+text-align: center;
+}
+#camera {
+  width: 100%;
+}
+
+/* About */
+
+#about {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+#about-img {
+text-align: center;
+margin: 10px;
+max-width: 100%;
+height: auto;
+}
+
+#about-text {
+  margin: 5px 10px;
+  font-size: 18px;
+}
+#about-text > p::before {
+content: "・";
+}
+
+/* Works */
+
+#works {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+#works1 {
+padding: 10px;
+margin: 20px 20px;
+text-align: center;
+}
+#works2 {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+#works3 {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+/* body */
+
+/* footer */
+
+#copyright {
+font-size: 18px; 
+ text-align: center;
+}
+
+}
+/* スマホヴァージョン */
+
+@media screen and (max-width:767px) {
+  
+#h1 {
+  
+  text-align: center;
+}
+
+#main-img {
+  text-align: center;
+  width: 100%;
+  }
+  #camera {
+    width: 100%;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    display:table;
+    table-layout: fixed;
+    max-width: 100%;
+    height: auto;
+   }
+ #about-img {
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+  }
+ #about-text {
+  width: 50%;
+  height: auto;
+ }
+
+#works {
+width: 100%;
+text-align: center;
+
+}
+
+#copyright {
+  font-size: 18px; 
+   text-align: center;
+  }
+
+}
